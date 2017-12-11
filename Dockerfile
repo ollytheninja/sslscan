@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Marco Sousa<marcomsousa@gmail.com>
+MAINTAINER Marco Sousa <marcomsousa+docker @ gmail.com>
 
 RUN apk add --no-cache build-base git perl zlib-dev libc6-compat && \
     git clone https://github.com/rbsec/sslscan.git && \
